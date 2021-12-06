@@ -10,6 +10,7 @@ engine:                      # Engine settings.
     enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
+        -Goi5.1.bin
         -elo3300.bin
 #      atomic: # list of book file paths for variant atomic
 #      etc.
