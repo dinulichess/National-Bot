@@ -37,7 +37,7 @@ option name UCI_LimitStrength type check : false
 option name UCI_Elo type spin : 2850
 option name UCI_ShowWDL type check : false
 option name SyzygyPath type string : <empty>
-option name SyzygyProbeDepth type spin : 500
+option name SyzygyProbeDepth type spin : 1000
 option name Syzygy50MoveRule type check : true
 option name SyzygyProbeLimit type spin : 7
 option name Use NNUE type check : false
