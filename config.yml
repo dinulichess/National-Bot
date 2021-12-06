@@ -10,7 +10,8 @@ engine:                      # Engine settings.
     enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
-        -Goi5.1.bin
+        - Goi5.1.bin
+        - Drawkiller_EloZoom_big.bin
 #      atomic: # list of book file paths for variant atomic
 #      etc.
 #      use the same pattern for giveaway, crazyhouse, horde, kingofthehill, racingkings, 3check as well
@@ -27,10 +28,10 @@ option name Threads type spin : 256
 option name Hash type spin : 32768
 option name Ponder type check : false
 option name MultiPV type spin : 1
-option name Skill Level type spin : 100
+option name Skill Level type spin : 20
 option name Move Overhead type spin : 500
 option name nodestime type spin : 0
-option name UCI_Chess960 type check : true
+option name UCI_Chess960 type check : false
 option name UCI_AnalyseMode type check : false
 option name UCI_LimitStrength type check : false
 option name UCI_Elo type spin : 2850
@@ -69,7 +70,7 @@ challenge:                   # incoming challenges
 #   - fromPosition
 #   - antichess
 #   - atomic
-#   - chess960
+    - chess960
 #   - crazyhouse
 #   - horde
 #   - kingOfTheHill
