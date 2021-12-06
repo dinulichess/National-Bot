@@ -69,7 +69,7 @@ challenge:                   # incoming challenges
 #   - fromPosition
 #   - antichess
 #   - atomic
-    - chess960
+#   - chess960
 #   - crazyhouse
 #   - horde
 #   - kingOfTheHill
