@@ -30,7 +30,7 @@ option name Ponder type check : false
 option name MultiPV type spin : 1
 option name Skill Level type spin : 1000
 option name Move Overhead type spin : 500
-option name nodestime type spin : 0
+option name nodestime type spin : 100
 option name UCI_Chess960 type check : false
 option name UCI_AnalyseMode type check : false
 option name UCI_LimitStrength type check : false
@@ -39,8 +39,8 @@ option name UCI_ShowWDL type check : false
 option name SyzygyPath type string : <empty>
 option name SyzygyProbeDepth type spin : 1000
 option name Syzygy50MoveRule type check : true
-option name SyzygyProbeLimit type spin : 7
-option name Use NNUE type check : false
+option name SyzygyProbeLimit type spin : 20
+option name Use NNUE type check : true
 #    go_commands:             # additional options to pass to the UCI go command
 #      nodes: 5000               # Search so many nodes only.
 #      depth: 20               # Search depth ply only.
